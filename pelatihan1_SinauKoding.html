@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1 | HTML | SinauKoding</title>
+  </head>
+  <body>
+    <!-- Table -->
+    <table border="1" cellspacing="0" cellpadding="5">
+      <tr>
+        <th>Jenis</th>
+        <th>Hasil</th>
+        <th>Keterangan</th>
+      </tr>
+      <!-- Text -->
+      <tr>
+        <th>Text</th>
+        <td>
+          <form><input type="text" /></form>
+        </td>
+        <td>tipe inputan yang diterima adalah text</td>
+      </tr>
+      <!-- Email -->
+      <tr>
+        <th>Email</th>
+        <td>
+          <form><input type="email" /></form>
+        </td>
+        <td>tipe inputan yang diterima adalah email dan mengandung validasi</td>
+      </tr>
+      <!-- Number -->
+      <tr>
+        <th>Number</th>
+        <td>
+          <form><input type="number" /></form>
+        </td>
+        <td>tipe inputan yang diterima adalah number/angka dan karakter yang diterima adalah angka</td>
+      </tr>
+      <!-- Password -->
+      <tr>
+        <th>Password</th>
+        <td>
+          <form><input type="password" /></form>
+        </td>
+        <td>tipe inputan yang diterima adalah text tetapi akan di sembunyikan dalam bentuk bintang</td>
+      </tr>
+      <!-- Radio Button -->
+      <tr>
+        <th>Radio</th>
+        <td>
+          <form>
+            <input type="radio" id="radio1" name="fav_radio" value="1" />
+            <label for="radio1">Radio 1</label>
+            <input type="radio" id="radio2" name="fav_radio" value="2" />
+            <label for="radio2">Radio 2</label>
+          </form>
+        </td>
+        <td>tipe inputan yang diterima adalah berupa pilihan dan hanya bisa di pilih salah satu</td>
+      </tr>
+      <!-- Checkbox -->
+      <tr>
+        <th>Checkbox</th>
+        <td>
+          <form>
+            <label for="checkbox1">Checkbox 1</label>
+            <input type="checkbox" id="checkbox1" name="checkbox1" value="1" />
+            <label for="checkbox2">Checkbox 2</label>
+            <input type="checkbox" id="checkbox2" name="checkbox2" value="2" />
+          </form>
+        </td>
+        <td>tipe inputan yang diterima adalah berupa checklist dan bisa di pilih beberapa</td>
+      </tr>
+      <!-- Range -->
+      <tr>
+        <th>Range</th>
+        <td>
+          <label for="points"></label>
+          <input type="range" id="points" name="points" min="0" max="10" />
+        </td>
+        <td>tipe inputan yang diterima adalah bar yang bisa digeser</td>
+      </tr>
+      <!-- Time -->
+      <tr>
+        <th>Time</th>
+        <td>
+          <label for="appt"></label>
+          <input type="time" id="appt" name="appt" />
+        </td>
+        <td>tipe inputan yang diterima adalah format waktu</td>
+      </tr>
+      <!-- Date -->
+      <tr>
+        <th>Date</th>
+        <td>
+          <label for="appt"></label>
+          <input type="date" id="appt" name="appt" />
+        </td>
+        <td>tipe inputan yang diterima adalah format waktu dalam satuan hari (hh),bulan (bb),tahun (tttt)</td>
+      </tr>
+      <!-- Week -->
+      <tr>
+        <th>Week</th>
+        <td>
+          <label for="appt"></label>
+          <input type="week" id="appt" name="appt" />
+        </td>
+        <td>tipe inputan yang diterima adalah format waktu dalam kurun satu minggu</td>
+      </tr>
+      <!-- Month -->
+      <tr>
+        <th>Month</th>
+        <td>
+          <label for="isian-bulan"></label> <br />
+          <input id="isian-bulan" name="bulan_lahir" type="month" />
+        </td>
+        <td>tipe inputan yang diterima adalah format waktu dalam kurun satuan hari bulan (bbbbbbbbb) dan tahun (tttt)</td>
+      </tr>
+      <!-- Color -->
+      <tr>
+        <th>Color</th>
+        <td>
+          <label for="favcolor"></label>
+          <input type="color" id="favcolor" name="favcolor" value="#000000" />
+        </td>
+        <td>tipe inputan yang diterima adalah berupa warna yang dihasilkan</td>
+      </tr>
+      <!-- File -->
+      <tr>
+        <th>File</th>
+        <td>
+          <label for="myfile"></label>
+          <input type="file" id="myfile" name="myfile" />
+        </td>
+        <td>tipe inputan yang diterima adalah dalam bentuk file</td>
+      </tr>
+      <!-- Option -->
+      <tr>
+        <th>Combo box</th>
+        <td>
+          <form>
+            <select id="cars" name="cars">
+              <option value="volvo">Option 1</option>
+              <option value="saab">Option 2</option>
+              <option value="mercedes">Option 3</option>
+            </select>
+          </form>
+        </td>
+        <td>tipe inputan yang diterima adalah option yang bisa dipilih</td>
+      </tr>
+      <!-- Textarea -->
+      <tr>
+        <th>Textarea</th>
+        <td>
+          <textarea name="text" maxlength="100" rows="4" cols="50"> </textarea>
+        </td>
+        <td>tipe inputan yang diterima adalah text dalam karakter yang banyak</td>
+      </tr>
+      <!-- Button -->
+      <tr>
+        <th>Button</th>
+        <td>
+          <button type="button" url="">Button</button>
+        </td>
+        <td>suatu tombol yang bisa melakukan action ketika diberi perintah</td>
+      </tr>
+    </table>
+    <!-- Made With Love By : DANI SAMSUL MAARIF  -->
+  </body>
+</html>
